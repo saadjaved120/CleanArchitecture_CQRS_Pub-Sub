@@ -1,0 +1,6 @@
+@Demo.CA_CQRS_Pub_Sub.API_HostAddress = http://localhost:5122
+
+GET {{Demo.CA_CQRS_Pub_Sub.API_HostAddress}}/
+Accept: application/json
+
+###

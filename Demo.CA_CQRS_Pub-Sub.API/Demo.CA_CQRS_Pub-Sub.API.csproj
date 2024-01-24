@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <RootNamespace>Demo.CA_CQRS_Pub_Sub.API</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.CA_CQRS_Pub-Sub.Application\Demo.CA_CQRS_Pub-Sub.Application.csproj" />
+    <ProjectReference Include="..\Demo.CA_CQRS_Pub-Sub.Infrastructure\Demo.CA_CQRS_Pub-Sub.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
